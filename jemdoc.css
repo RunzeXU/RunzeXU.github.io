@@ -355,6 +355,14 @@ img.eqwl {
 	margin: 0;
 }
 
+img.floatright { 
+
+    float: right; 
+
+    margin: 5px; 
+
+}
+
 table + table {
     margin-top: 1em;
 }
