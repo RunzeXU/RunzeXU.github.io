@@ -382,28 +382,27 @@ table.imgtable, table.imgtable td {
 }
 
 .highlight {
-    color: #000;
     line-height: 2;
+	text-align: justify;
 }
 .highlight span {
-    background-color: linear-gradient(to right, #ec695c, #61c454) no-repeat right bottom;
-    /* background: linear-gradient(to right, #ec695c, #61c454) 0 100% / 0 2px; */
-    background-size: 0 2px;
-    transition: background-size 1300ms;
+    background-image: linear-gradient(to right, #ec695c, #61c454);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+    background-size: 0% 2px;
+    transition: background-size 1600ms;
     }
     
 .highlight span:hover {
     background-position-x: left;
-    background: linear-gradient(to right, #ec695c, #61c454) no-repeat 0 100%;
+    background-image: linear-gradient(to right, #ec695c, #61c454);
     background-size: 100% 2px;
-    
-    /* background-position-x:left;
-    background-size: 100% 2px; */
     }
-	.footer {
-		text-align: center;
-		font: 0.9em/1 monospace;/* shorthand for font-size, line-height and font-family */
-		color: #888;
 
-	}
+.footer {
+	text-align: center;
+	font: 0.9em/1 monospace;/* shorthand for font-size, line-height and font-family */
+	color: #888;
+
+}
 	
